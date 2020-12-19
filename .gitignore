@@ -329,7 +329,7 @@ prepros-6.config
 prepros.config
 
 # End of https://www.toptal.com/developers/gitignore/api/vscode,sass,git,jetbrains,sublimetext,node,vuejs,angular,react
-.DS_Store
+.DS_Store/
 **.DS_Store
 **/.DS_Store
 ./.DS_Store
