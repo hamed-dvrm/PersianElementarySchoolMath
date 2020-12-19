@@ -1,0 +1,88 @@
+:root {
+    --yellow_level1: #fffce0;
+    --yellow_level2: #ffdd2b;
+    --yellow_level3: #fecc4e;
+    --yellow_level4: #fcb94b;
+
+    --red_level1: #f0595b;
+    --red_level2: #c8242b;
+    --red_level3: #b31c0f;
+
+    --blue_level0: #d4effb;
+    --blue_level1: #6bcff6;
+    --blue_level2: #77bfd1;
+    --blue_level3: #5cb6cd;
+
+    --green_level0: #d2e287;
+    --green_level1: #bbd75e;
+    --green_level2: #87c765;
+    --green_level3: #44b869;
+    --green_level4: #3ab54a;
+
+    --orange_level1: #efeadb;
+    --orange_level2: #fcb94b;
+    --orange_level3: #ff7322;
+
+    --purple: #b09ac9;
+
+    --pink_level0: #fbdfeb;
+    --pink: #f287b6;
+
+}
+@font-face {
+    font-family: 'Zar';
+    src: url('../../fonts/Zar.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/Zar.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Zar.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Zar.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Zar.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Zar.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'ZarBold';
+    src: url('../../fonts/ZarBold.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/ZarBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/ZarBold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/ZarBold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/ZarBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/ZarBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Faraz';
+    src: url('../../fonts/Faraz.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/Faraz.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Faraz.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Faraz.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Faraz.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Faraz.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Yekan';
+    src: url('../../fonts/Yekan.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Yekan.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Yekan.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Yekan.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Yekan.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+.header-box {
+    margin-top: 100px;
+    font-family: 'Yekan','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--orange_level3);
+    font-weight: bolder;
+    font-size: 3em;
+    /* -webkit-text-stroke: #3ab54a 2px; */
+}
